@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.navigation_bar img{
+    padding-left: 2rem;
+    margin-bottom: -1.5rem;
+}
+
+.navigation_bar nav{
+    display: flex;
+    justify-content: right;
+    margin-top: -1rem;
+    margin-right: 4rem;
+    gap: 1rem;
+    
+}
+
+nav ul {
+    padding: .5rem .5rem;
+}
+
+.black{
+    background-color: black;
+    color: white;
+    border-radius: .4rem;
+}
+
+.write_up {
+    /* width: 100%; */
+    display: flex;
+    justify-content: right;
+    padding-right: 3rem;
+    font-size: 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.write_up_text {
+    position: relative;
+}
+
+.text{
+    font-size: 1.2rem;
+    position: absolute;
+    text-align: left;
+    position: absolute;
+    top: 15rem;
+    right: 1.3rem;
+}
+
+.icons {
+    display: flex;
+    gap: 5rem;
+    justify-items: center;
+    justify-content: center;
+    padding-bottom: 4rem;
+    padding-left: 15rem;
+}
+
+.about p{
+    font-size: 2rem;
+    margin-left: 34rem;
+    padding-bottom: 6rem;
+}
+
+.grouping{
+    display: flex;
+    gap: 12rem;
+    justify-content: center;
+    padding-bottom: 6rem;
+}
+
+.classes{
+    display: flex;
+    gap: 12rem;
+    justify-content: center;
+    padding-bottom: 6rem;
+}
+
+.grid{
+    display: flex;
+    gap: 12rem;
+    justify-content: center;
+    padding-bottom: 6rem;
+}
+
+.grouping p, .classes p, .grid p{
+    font-size: 1.5rem;
+}
+
+.up_down{
+  padding: 1rem; 
+  /* margin-left: 4rem;  */
+}
+
+
+.normal_text{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 28rem;
+    padding-bottom: 6rem;
+}
+
+.paar, .gurr, .hun{
+    padding-bottom: 2rem;
+}
+
+.paar p{
+    padding-top: 2rem;
+}
+
+.process{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 28rem;
+    padding-bottom: 2rem;
+}
+
+.analysis{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 4rem;
+}
+
+.development{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.analysis_1, .research,.design{
+    padding: 15rem 1rem 1rem 1rem;
+    border: 2px solid black;
+
+}
+
+.development_1, .onboarding, .support{
+    padding: 15rem 1rem 1rem 1rem;
+    border: 2px solid black;
+}
+
+.development{
+    margin-bottom: 5rem;
+}
+.humble{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 33rem;
+}
+
+.won p{
+    font-size: 0.5rem;
+}
+
+.won{
+    position: absolute;
+    right: 0;
+    margin-top: -3rem;
+    padding-right: 28rem;
+}
+
+.humble{
+    margin-bottom: 4rem;
+}
+
+.code_image img{
+    padding-left: 8rem;
+}
+
+.humble_brag_list {
+    /* background: tan; */
+    display: flex;
+    justify-content: right;
+    margin-bottom: 6rem;
+}
+
+.hunble_brag_list_details {
+    /* background: teal; */
+    width: 58%;
+    margin-top: 5rem;
+}
+
+.hbld_row_1 {
+    display: flex;
+    justify-content: right;
+    border-top: 1px solid grey;
+}
+
+.hbld_row_1 ul {
+    margin: 0 2rem;
+    padding: 2rem 0;
+}
+
+.hbld_row_1 ul:nth-child(1) {
+    width: 30rem;
+    margin-left: 0;
+}
+
+.hbld_row_1 ul:nth-child(2) {
+    width: 30rem;
+}
+
+.name{
+    display: flex;
+    margin: 0rem 1rem 0 1rem;
+    padding: 1rem 1rem ;
+    justify-content: center;
+    gap: 5rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.image_man_details {
+    margin: 0 1rem 0 1rem;
+}
+
+.image_man img{
+    margin-left: 1rem;
+    
+}
+
+.image_man{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.caption_writeup {
+    position: absolute;
+    right: 0;
+    margin-top: -12rem
+}
+
+.caption_writeup {
+    padding-right: 12rem;
+}
+
+.caption_writeup p{
+    font-size: 1.3rem;
+}
+
+.arrows img{
+    margin-left: 1.2rem;
+}
+
+.date p{
+    position: absolute;
+    right: 0;
+    margin-top: -1rem;
+    padding-right: 38rem;
+}
+
+.move{
+    position: absolute;
+    right: 0;
+    margin-top: -1.3rem;
+    padding-right: 1.5rem;
+}
+
+.arrow_keys{
+     border-right: 1px solid black;
+     border-left: 1px solid black;
+     border-bottom: 1px solid black;  
+}
+
+.arrow_keys{
+    padding: 0.5rem 0.5rem;
+}
+
+.image_man_details {
+    margin-bottom: 4rem;
+}
+
+.worked {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+}
+
+.hunter{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.common{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 33rem;
+  
+}
+
+.common{
+    margin-bottom: 2rem;
+}
+
+.some{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+    position: absolute;
+    right: 0;
+    margin-top: -9rem;
+    padding-right: 19rem;
+}
+
+.down_list {
+    padding-left: 33rem;
+    padding-right: 3rem;
+    margin-bottom: 4rem;
+}
+
+.down_list ul {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 1rem 0;
+}
+
+.down_list ul img {
+    width: .7rem;
+    height: .7rem;
+}
